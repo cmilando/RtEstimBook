@@ -389,6 +389,10 @@ window.Quarto = {
 <section id="brief-description" class="level3">
 <h3 class="anchored" data-anchor-id="brief-description">Brief description</h3>
 <div class="line-block"><a href="./package_EpiFusion.html#sec-top">EpiFusion</a> | <span class="citation" data-cites="Judge2024EpiFusion">Judge et al. (<a href="references.html#ref-Judge2024EpiFusion" role="doc-biblioref">2024</a>)</span> | <a href="https://github.com/ciarajudge/EpiFusion">🔗</a> | Nov 30, 2024|</div>
+<div style="font-size:0.8em">
+<p>Brief summary of the EpiFusion method from the paper</p>
+</div>
+<p>EpiFusion is a Bayesian framework designed to estimate the effective reproduction number by jointly analyzing epidemiological (case incidence) and phylodynamic (genomic) data using particle filtering within a particle Markov Chain Monte Carlo (pMCMC) framework. It addresses the limitations of using only epidemiological or genomic data, particularly in under-sampled outbreaks. EpiFusion combines a stochastic infection dynamics model with dual observation models: one for case incidence data and another for phylodynamic tree data. The approach involves sequential particle filtering to simulate infection trajectories, with particles weighted and resampled based on their fit to both data sources. Parameter inference is achieved through Metropolis-Hastings MCMC. EpiFusion has been validated through simulations, benchmarking against existing tools, and application to real-world outbreaks, including the 2014 Ebola outbreak in Sierra Leone.</p>
 </section>
 <section id="methods" class="level3">
 <h3 class="anchored" data-anchor-id="methods">Methods</h3>

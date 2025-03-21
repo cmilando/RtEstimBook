@@ -5,6 +5,11 @@
 
 | [EpiLPS](package_EpiLPS.qmd#sec-top) | @Gressani2022EpiLPS | [🔗](https://github.com/oswaldogressani/EpiLPS) | Oct 24, 2024|
 
+::: {style="font-size:0.8em"}
+Brief summary of the method from the paper<br><br>
+:::
+EpiLPS is a Bayesian tool for estimating the time-varying reproduction number using a robust, efficient approach. It models case counts with a Negative Binomial distribution to handle overdispersion and employs Bayesian P-splines for smoothing epidemic curves. The methodology leverages Laplace approximations to estimate the posterior distribution of the spline coefficients rapidly. Two inference methods are provided: a fast maximum a posteriori approach for quick estimates and an MCMC scheme using Langevin dynamics for thorough posterior sampling. EpiLPS delivers accurate estimates without arbitrary smoothing assumptions and has been applied to SARS-CoV-1, H1N1, and COVID-19 datasets.
+
 ### Methods
 
 This package contains the following methods:

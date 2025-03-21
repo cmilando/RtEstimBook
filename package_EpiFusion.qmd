@@ -5,6 +5,13 @@
 
 | [EpiFusion](package_EpiFusion.qmd#sec-top) | @Judge2024EpiFusion | [🔗](https://github.com/ciarajudge/EpiFusion) | Nov 30, 2024|
 
+::: {style="font-size:0.8em"}
+Brief summary of EpiFusion method from the paper<br><br>
+:::
+
+EpiFusion is a Bayesian framework designed to estimate the effective reproduction number by jointly analyzing epidemiological (case incidence) and phylodynamic (genomic) data using particle filtering within a particle Markov Chain Monte Carlo (pMCMC) framework. It addresses the limitations of using only epidemiological or genomic data, particularly in under-sampled outbreaks. EpiFusion combines a stochastic infection dynamics model with dual observation models: one for case incidence data and another for phylodynamic tree data. The approach involves sequential particle filtering to simulate infection trajectories, with particles weighted and resampled based on their fit to both data sources. Parameter inference is achieved through Metropolis-Hastings MCMC. EpiFusion has been validated through simulations, benchmarking against existing tools, and application to real-world outbreaks, including the 2014 Ebola outbreak in Sierra Leone.
+
+
 ### Methods
 
 This package contains the following methods:

@@ -5,6 +5,11 @@
 
 | [EpiInvert](package_EpiInvert.qmd#sec-top) | @Alvarez2021Computing | [🔗](https://github.com/lalvarezmat/EpiInvert) | Dec 31, 2023|
 
+::: {style="font-size:0.8em"}
+Brief summary of the method from the paper <br><br>
+:::
+EpiInvert is an epidemiological method that estimates the time-varying reproductive number and restores incidence curves by inverting the renewal equation using variational techniques. The approach corrects biases introduced by reporting inconsistencies, including weekly and festive biases, ensuring robust epidemic trend estimation. EpiInvert estimates Rt by inverting the renewal equation using signal processing techniques, providing a reliable measure of epidemic dynamics. It corrects systematic underreporting due to weekends and holidays by detecting anomalies based on historical trends, redistributing cases across affected days to reduce artificial fluctuations, and adjusting Rt estimates to reflect true transmission patterns. It also includes a forecasting model that predicts epidemic trends using historical trends.
+
 ### Methods
 
 This package contains the following methods:

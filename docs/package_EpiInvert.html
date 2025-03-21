@@ -20,7 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
+  /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
@@ -389,6 +389,10 @@ window.Quarto = {
 <section id="brief-description" class="level3">
 <h3 class="anchored" data-anchor-id="brief-description">Brief description</h3>
 <div class="line-block"><a href="./package_EpiInvert.html#sec-top">EpiInvert</a> | <span class="citation" data-cites="Alvarez2021Computing">Alvarez et al. (<a href="references.html#ref-Alvarez2021Computing" role="doc-biblioref">2021</a>)</span> | <a href="https://github.com/lalvarezmat/EpiInvert">🔗</a> | Dec 31, 2023|</div>
+<div style="font-size:0.8em">
+<p>Summary of the method from the paper<br><br></p>
+</div>
+<p> EpiInvert is an epidemiological method that estimates the time-varying reproductive number and restores incidence curves by inverting the renewal equation using variational techniques. The approach corrects biases introduced by reporting inconsistencies, including weekly and festive biases, ensuring robust epidemic trend estimation. EpiInvert estimates Rt by inverting the renewal equation using signal processing techniques, providing a reliable measure of epidemic dynamics. It corrects systematic underreporting due to weekends and holidays by detecting anomalies based on historical trends, redistributing cases across affected days to reduce artificial fluctuations, and adjusting Rt estimates to reflect true transmission patterns. It also includes a forecasting model that predicts epidemic trends using historical trends.</p>
 </section>
 <section id="methods" class="level3">
 <h3 class="anchored" data-anchor-id="methods">Methods</h3>
@@ -459,8 +463,6 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-
-
 </section>
 <section id="sample-code" class="level3">
 <h3 class="anchored" data-anchor-id="sample-code">Sample code</h3>
