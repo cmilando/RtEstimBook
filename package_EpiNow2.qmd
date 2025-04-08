@@ -64,32 +64,30 @@ This package contains the following methods:
     </tr>
         <tr>
         <td>Ability to nowcast/forecast</td>
-        <td>Some description</td>
         <td>
-          ☐ Yes/no
+          Yes
                   </td>
     </tr>
                     <tr>
         <td>Incorporates delay distributions</td>
-        <td>Some description</td>
+        <td>'delay_opts()' defines delay distributions and options.</td>
         <td>
-          ☐ Yes/no
+          Yes
         </td>
     </tr>
     
                         <tr>
         <td>Estimates expected cases </td>
-        <td>Some description</td>
         <td>
-          ☐ Yes/no
+          Yes
         </td>
     </tr>
 
                         <tr>
         <td>Communicates uncertainty</td>
-        <td>Some description</td>
+        <td>It generates credible intervals.</td>
         <td>
-☐ Yes/no
+Yes
         </td>
     </tr>
 
@@ -100,17 +98,17 @@ This package contains the following methods:
     
                         <tr>
         <td>Peer reviewed validation</td>
-        <td>Some description</td>
+        <td>Published in Welcome Open Research</td>
         <td>
-          ☐ Yes/no
+          no
         </td>
     </tr>
     
                         <tr>
         <td>Replicable documentation</td>
-        <td>Some description</td>
+        <td>GitHub site and R package</td>
         <td>
-          ☐ Yes/no
+          Yes
         </td>
     </tr>
 
